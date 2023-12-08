@@ -26,6 +26,7 @@ public class FlipkartTest  extends BaseSetup{
 	  @BeforeMethod public void setUp() throws Exception{ 
 		  initialization(); 
 		  }
+	  
 	  @Test 
 	  public void FlipkartSearch_Test() throws InterruptedException
 	  { 
@@ -34,4 +35,6 @@ public class FlipkartTest  extends BaseSetup{
 		  Assert.assertTrue(flipkart.verifyMobilePresent(),"Mobile device not present");
 		  System.out.println("Price for Mobile APPLE iPhone 14 (Blue, 128 GB) is :::: "+flipkart.GetMobilePrice());
 	  }
+	  
+	  
 }
