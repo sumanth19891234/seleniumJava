@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Demo/src/main/java"/>
+	<classpathentry excluding="com/demo/qa/testcases/" kind="src" path="Demo/src/test/java"/>
+	<classpathentry kind="src" path="Demo/src/test/java/com/demo/qa/testcases"/>
+	<classpathentry kind="src" path="PageObjectModel-master/PageObjectModel-master/src/main/java"/>
+	<classpathentry excluding="com/crm/qa/testcases/" kind="src" path="PageObjectModel-master/PageObjectModel-master/src/test/java"/>
+	<classpathentry kind="src" path="PageObjectModel-master/PageObjectModel-master/src/test/java/com/crm/qa/testcases"/>
+	<classpathentry kind="lib" path="Demo/target/Demo-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="Demo/target/classes"/>
+</classpath>

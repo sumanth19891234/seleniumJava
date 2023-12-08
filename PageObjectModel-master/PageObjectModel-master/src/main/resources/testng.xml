@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Demo  ">
+		<classes>
+			<class name="com.crm.qa.testcases.GoogleTest"></class>
+			<class name="com.crm.qa.testcases.AmazonTest"></class>
+			<class name="com.crm.qa.testcases.FlipkartTest"></class>
+			<class name="com.crm.qa.testcases.GmailLoginTest"></class>
+			<class name="com.crm.qa.testcases.GmailTest"></class>		
+			<class name="com.crm.qa.testcases.HTMLWebsite"></class>			
+		</classes>
+	</test>
+</suite>
