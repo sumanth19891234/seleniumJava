@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13708" started-at="2023-12-08T08:13:54Z" finished-at="2023-12-08T08:14:08Z">
+  <suite name="Default suite" duration-ms="20815" started-at="2023-12-08T09:46:43Z" finished-at="2023-12-08T09:47:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13708" started-at="2023-12-08T08:13:54Z" finished-at="2023-12-08T08:14:08Z">
-      <class name="com.crm.qa.testcases.Examples.DropDown">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Examples.DropDown@7c75222b]" name="setUp" is-config="true" duration-ms="4809" started-at="2023-12-08T13:43:54Z" finished-at="2023-12-08T13:43:59Z">
+    <test name="Default test" duration-ms="20815" started-at="2023-12-08T09:46:43Z" finished-at="2023-12-08T09:47:04Z">
+      <class name="com.crm.qa.testcases.Examples.AlertsPopups">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.Examples.AlertsPopups@4c203ea1]" name="setUp" is-config="true" duration-ms="6404" started-at="2023-12-08T15:16:43Z" finished-at="2023-12-08T15:16:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="WebsiteLogin_Test()[pri:0, instance:com.crm.qa.testcases.Examples.DropDown@7c75222b]" name="WebsiteLogin_Test" duration-ms="8868" started-at="2023-12-08T13:43:59Z" finished-at="2023-12-08T13:44:08Z">
+        <test-method status="PASS" signature="handle_alerts()[pri:1, instance:com.crm.qa.testcases.Examples.AlertsPopups@4c203ea1]" name="handle_alerts" duration-ms="9167" started-at="2023-12-08T15:16:50Z" finished-at="2023-12-08T15:16:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebsiteLogin_Test -->
-      </class> <!-- com.crm.qa.testcases.Examples.DropDown -->
+        </test-method> <!-- handle_alerts -->
+        <test-method status="PASS" signature="Handle_Popups()[pri:2, instance:com.crm.qa.testcases.Examples.AlertsPopups@4c203ea1]" name="Handle_Popups" duration-ms="5236" started-at="2023-12-08T15:16:59Z" finished-at="2023-12-08T15:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_Popups -->
+      </class> <!-- com.crm.qa.testcases.Examples.AlertsPopups -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

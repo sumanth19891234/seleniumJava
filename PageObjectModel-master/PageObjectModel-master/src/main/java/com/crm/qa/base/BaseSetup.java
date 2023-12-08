@@ -51,8 +51,18 @@ public class BaseSetup {
 			options.addArguments("start-maximized");
 			options.addArguments("--disable-notifications");
 			*/
-			
-			driver = new ChromeDriver(); 		
+			/* Handle geo notification bar
+			 ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-maximized");
+			options.addArguments("disable-geolocation");
+			ChromeDriver driver = new ChromeDriver(options); 			 
+			 */			
+			/* Handle Chrome Automation InfoBar 
+			 ChromeOptions options = new ChromeOptions();
+			 options.addArguments("start-maximized");
+			 options.addArguments("disable-infobars");
+			 driver = new ChromeDriver(options); */			 
+			 driver = new ChromeDriver(); 		
 		}
 		else if(browserName.equals("FF")){
 			String path = new File("BrowserDrivers/geckodriver/geckodriver.exe").getAbsolutePath();

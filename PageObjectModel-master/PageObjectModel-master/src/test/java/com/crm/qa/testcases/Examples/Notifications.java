@@ -36,14 +36,9 @@ public class Notifications  extends BaseSetup{
 			driver.get("https://www.redbus.in");
 	  }
 	 
-	  @Test (priority=2)
-	  public void Suppress_PushNotification2() throws InterruptedException
-	  { 
-			driver.get("https://www.redbus.in");
-	  }
 	  
 	  @Test (priority=3)
-	  public void Suppress_GeoLocationPopup() throws InterruptedException
+	  public void Suppress_ChromeInformationBar() throws InterruptedException
 	  { 
 			driver.get("https://www.google.com");
 	  }

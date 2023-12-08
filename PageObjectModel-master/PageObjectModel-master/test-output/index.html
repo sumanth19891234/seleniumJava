@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sgangadharappa\AppData\Local\Temp\testng-eclipse-1492006498\testng-customsuite.xml</span>
+                    <span>C:\Users\sgangadharappa\AppData\Local\Temp\testng-eclipse-846935237\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.Examples.DropDown" hash-for-method="WebsiteLogin_Test">WebsiteLogin_Test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.Examples.AlertsPopups" hash-for-method="Handle_Popups">Handle_Popups</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcases.Examples.AlertsPopups" hash-for-method="handle_alerts">handle_alerts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +125,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.crm.qa.testcases.Examples.DropDown</span>
+              <span class="class-name">com.crm.qa.testcases.Examples.AlertsPopups</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="WebsiteLogin_Test">
-                  </a> <!-- WebsiteLogin_Test -->
-                  <span class="method-name">WebsiteLogin_Test</span>
+                  <a name="Handle_Popups">
+                  </a> <!-- Handle_Popups -->
+                  <span class="method-name">Handle_Popups</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="handle_alerts">
+                  </a> <!-- handle_alerts -->
+                  <span class="method-name">handle_alerts</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sgangadharappa\AppData\Local\Temp\testng-eclipse-1492006498\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sgangadharappa\AppData\Local\Temp\testng-eclipse-846935237\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +156,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.crm.qa.testcases.Examples.DropDown&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.Examples.AlertsPopups&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'WebsiteLogin_Test')
-data.setCell(0, 2, 'com.crm.qa.testcases.Examples.DropDown')
-data.setCell(0, 3, 8868);
+data.setCell(0, 1, 'handle_alerts')
+data.setCell(0, 2, 'com.crm.qa.testcases.Examples.AlertsPopups')
+data.setCell(0, 3, 9167);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Handle_Popups')
+data.setCell(1, 2, 'com.crm.qa.testcases.Examples.AlertsPopups')
+data.setCell(1, 3, 5236);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,14 +235,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.testcases.Examples.DropDown</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="chronological-class-name">com.crm.qa.testcases.Examples.AlertsPopups</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">WebsiteLogin_Test</span>
-                <span class="method-start">4809 ms</span>
+                <span class="method-name">handle_alerts</span>
+                <span class="method-start">6404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Handle_Popups</span>
+                <span class="method-start">15571 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
